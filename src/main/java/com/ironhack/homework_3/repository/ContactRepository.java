@@ -1,0 +1,12 @@
+package com.ironhack.homework_3.repository;
+
+import com.ironhack.homework_3.model.Contact;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface ContactRepository extends JpaRepository<Contact, Integer> {
+
+}
